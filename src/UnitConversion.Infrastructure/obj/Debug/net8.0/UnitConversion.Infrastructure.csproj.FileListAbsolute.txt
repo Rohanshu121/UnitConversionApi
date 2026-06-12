@@ -1,0 +1,17 @@
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Infrastructure.deps.json
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Infrastructure.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Infrastructure.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Application.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Domain.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Application.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/bin/Debug/net8.0/UnitConversion.Domain.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.csproj.AssemblyReference.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.AssemblyInfoInputs.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.AssemblyInfo.cs
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConv.34AECD7D.Up2Date
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/refint/UnitConversion.Infrastructure.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/UnitConversion.Infrastructure.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Infrastructure/obj/Debug/net8.0/ref/UnitConversion.Infrastructure.dll

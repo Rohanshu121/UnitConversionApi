@@ -1,0 +1,11 @@
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/bin/Debug/net8.0/UnitConversion.Domain.deps.json
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/bin/Debug/net8.0/UnitConversion.Domain.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/bin/Debug/net8.0/UnitConversion.Domain.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/UnitConversion.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/UnitConversion.Domain.AssemblyInfoInputs.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/UnitConversion.Domain.AssemblyInfo.cs
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/UnitConversion.Domain.csproj.CoreCompileInputs.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/UnitConversion.Domain.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/refint/UnitConversion.Domain.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/UnitConversion.Domain.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Domain/obj/Debug/net8.0/ref/UnitConversion.Domain.dll

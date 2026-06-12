@@ -1,0 +1,15 @@
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/bin/Debug/net8.0/UnitConversion.Application.deps.json
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/bin/Debug/net8.0/UnitConversion.Application.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/bin/Debug/net8.0/UnitConversion.Application.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/bin/Debug/net8.0/UnitConversion.Domain.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/bin/Debug/net8.0/UnitConversion.Domain.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.csproj.AssemblyReference.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.AssemblyInfoInputs.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.AssemblyInfo.cs
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.csproj.CoreCompileInputs.cache
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConv.7B7FDBF3.Up2Date
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/refint/UnitConversion.Application.dll
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/UnitConversion.Application.pdb
+/Users/rohanshurathod/UnitConversionApi/src/UnitConversion.Application/obj/Debug/net8.0/ref/UnitConversion.Application.dll
