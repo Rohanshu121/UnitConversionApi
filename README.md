@@ -45,11 +45,11 @@ POST /api/conversion/convert
 
 ## Supported Units
 
-| Category    | Units                                                                 |
-|-------------|-----------------------------------------------------------------------|
-| Length      | meter, kilometer, centimeter, millimeter, inch, foot, yard, mile     |
-| Weight      | gram, kilogram, pound, ounce                                         |
-| Temperature | Celsius, Fahrenheit, Kelvin (also accepts `c`, `f`, `k` as shortcuts)|
+| Category    | Units                                                                  |
+|-------------|------------------------------------------------------------------------|
+| Length      | meter, kilometer, centimeter, millimeter, inch, foot, yard, mile      |
+| Weight      | gram, kilogram, pound, ounce                                          |
+| Temperature | Celsius, Fahrenheit, Kelvin (also accepts `c`, `f`, `k` as shortcuts) |
 
 ---
 
@@ -73,7 +73,6 @@ dotnet build
 ```bash
 dotnet run --project src/UnitConversion.API
 ```
-
 ### 4. Test It
 
 Open **http://localhost:5151/swagger** in your browser for interactive documentation.
@@ -105,11 +104,25 @@ dotnet test
 
 ## Design Decisions
 
-| Concept               | Why It Matters                                                                                                       |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| Strategy Pattern      | Each unit category has its own converter. To add a new category (e.g., Volume), you just add one new converter class – no changes to existing code. |
-| Dependency Injection  | The service doesn't create converters itself; they are injected. This makes testing and swapping easy.              |
-| Clean Architecture    | Code is split into Domain, Application, Infrastructure, and API. Each part has one job.                            |
+| Concept              | Why It Matters                                                                                                        |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Strategy Pattern     | Each unit category has its own converter. To add a new category (e.g., Volume), you just add one new converter class – no changes to existing code. |
+| Dependency Injection | The service doesn't create converters itself; they are injected. This makes testing and swapping easy.               |
+| Clean Architecture   | Code is split into Domain, Application, Infrastructure, and API. Each part has one job.                             |
+
+---
+
+## Design Decisions & Trade-offs
+
+| Decision / Trade-off          | Explanation                                                                                                                                                          |
+|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| No database                   | This API is stateless – conversion formulas are hardcoded. Trade-off: extremely fast with no infrastructure costs, but adding new units requires a code change.      |
+| Case-insensitive unit names   | Units like `Meter` / `METER` / `meter` all work. Trade-off: slight performance cost (normalisation), but much better developer experience.                          |
+| Temperature as special case   | Unlike length/weight, temperature is non-linear. Trade-off: custom formulas instead of a simple factor. `IUnitConverter` accommodates both via `CanConvert` and `Convert`. |
+| Double precision               | Uses `double` for all values. Trade-off: sufficient for most scientific/engineering use cases, but not exact for financial applications (`decimal` would be better). |
+| No caching                    | Every request recomputes conversions. Trade-off: simpler code and no stale data risk, but higher CPU at very high loads (can be added later with `IMemoryCache`).    |
+| Single endpoint               | One `POST /convert` instead of separate endpoints per category. Trade-off: more validation logic in one place, but a simpler, uniform interface for clients.         |
+| Swagger always on in dev      | Helps with testing and documentation. Trade-off: exposes internal schema if accidentally deployed to production (can be disabled via environment variable).          |
 
 ---
 
